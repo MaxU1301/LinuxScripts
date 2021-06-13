@@ -52,7 +52,7 @@ sudo ldconfig
 sudo cp ../rtl-sdr.rules /etc/udev/rules.d/
 cd /etc/modprobe.d
 sudo touch blacklist-rtl.conf
-sudo printf "blacklist dvb_usb_rtl28xxu" >> blacklist-rtl.conf
+sudo sh -c 'printf "blacklist dvb_usb_rtl28xxu" >> blacklist-rtl.conf'
 echo "You Need To Reboot"
 
 
