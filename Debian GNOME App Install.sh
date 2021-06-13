@@ -13,7 +13,7 @@ sudo apt install putty -y
 sudo apt install menulibre -y
 sudo apt install gimp -y
 sudo apt install gnome-tweaks -y
-sudo apt install CubicSDR -y
+sudo apt install cubicsdr -y
 sudo apt install brave-browser -y
 
 
