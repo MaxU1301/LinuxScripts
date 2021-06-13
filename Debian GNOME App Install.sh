@@ -34,5 +34,29 @@ sudo cp App\ Startup/CubicSDR/CubicSDR.desktop /usr/share/applications
 
 
 
+# RTL-SDR
+sudo apt update -y
+sudo apt install git -y
+sudo apt install cmake -y
+sudo apt install build-essential -y
+sudo apt install libusb-1.0-0-dev -y
+cd ~
+git clone git://git.osmocom.org/rtl-sdr.git
+cd rtl-sdr/
+mkdir build
+cd build
+cmake ../ -DINSTALL_UDEV_RULES=ON
+make
+sudo make install
+sudo ldconfig
+sudo cp ../rtl-sdr.rules /etc/udev/rules.d/
+cd /etc/modprobe.d
+sudo touch blacklist-rtl.conf
+sudo printf "blacklist dvb_usb_rtl28xxu" >> blacklist-rtl.conf
+echo "You Need To Reboot"
+
+
+
+
 
 
