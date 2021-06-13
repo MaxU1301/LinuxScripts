@@ -1,0 +1,21 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=CubicSDR
+GenericName=CubicSDR
+Comment=Software-Defined Radio Application
+Icon=/usr/share/cubicsdr/CubicSDR.png
+Exec=/opt/appstartup/CubicSDR.sh
+Actions=
+Categories=DataVisualization;HamRadio;X-GNOME-Other;Development;
+Name[en_US]=CubicSDR
+X-GNOME-FullName[en_US]=CubicSDR
+Comment[en_US]=Software-Defined Radio Application
+NoDisplay=false
+Path=
+Terminal=false
+X-GNOME-UsesNotifications=false
+
+[Desktop Action NewShortcut]
+Name=With Vsync
+Exec=CubicSDR 

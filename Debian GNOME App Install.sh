@@ -27,3 +27,12 @@ sudo flatpak install flathub org.audacityteam.Audacity -y # Audacity
 
 sudo apt update
 sudo apt upgrade
+
+sudo mkdir /opt/appstartup
+sudo cp App\ Startup/CubicSDR/CubicSDR.sh /opt/appstartup/CubicSDR.sh
+sudo cp App\ Startup/CubicSDR/CubicSDR.desktop /usr/share/applications
+
+
+
+
+
