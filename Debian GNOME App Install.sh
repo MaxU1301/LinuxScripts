@@ -32,6 +32,9 @@ sudo mkdir /opt/appstartup
 sudo cp App\ Startup/CubicSDR/CubicSDR.sh /opt/appstartup/CubicSDR.sh
 sudo cp App\ Startup/CubicSDR/CubicSDR.desktop /usr/share/applications
 
+printf 'nvidia-settings --assign CurrentMetaMode="nvidia-auto-select +0+0 { ForceFullCompositionPipeline = On }"' > ~/nvidia-settings.sh
+chmod +x ~/nvidia-settings.sh
+
 
 
 # RTL-SDR
