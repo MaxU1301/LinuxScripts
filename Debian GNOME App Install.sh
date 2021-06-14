@@ -23,6 +23,8 @@ sudo apt install gnome-tweaks -y
 sudo apt install cubicsdr -y
 sudo apt install brave-browser -y
 sudo apt install folder-color
+sudo apt install neofetch -y
+sudo aot install htop -y
 
 # Flatpak install
 sudo flatpak install flathub com.visualstudio.code -y # VSCode
