@@ -36,6 +36,7 @@ sudo flatpak install flathub com.discordapp.Discord -y # Discord
 sudo flatpak install flathub com.bitwarden.desktop -y # Bitwarden
 sudo flatpak install flathub org.audacityteam.Audacity -y # Audacity
 sudo flatpak install flathub com.obsproject.Studio -y # OBS Studio
+sudo flatpak install flathub com.prusa3d.PrusaSlicer -y # Prusa Slicer
 
 sudo apt update
 sudo apt upgrade -y
