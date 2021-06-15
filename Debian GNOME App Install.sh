@@ -24,7 +24,8 @@ sudo apt install cubicsdr -y
 sudo apt install brave-browser -y
 sudo apt install folder-color
 sudo apt install neofetch -y
-sudo aot install htop -y
+sudo apt install htop -y
+sudo apt install v4l2loopback-dkms -y
 
 # Flatpak install
 sudo flatpak install flathub com.visualstudio.code -y # VSCode
@@ -34,6 +35,7 @@ sudo flatpak install flathub us.zoom.Zoom -y # Zoom
 sudo flatpak install flathub com.discordapp.Discord -y # Discord
 sudo flatpak install flathub com.bitwarden.desktop -y # Bitwarden
 sudo flatpak install flathub org.audacityteam.Audacity -y # Audacity
+sudo flatpak install flathub com.obsproject.Studio -y # OBS Studio
 
 sudo apt update
 sudo apt upgrade -y
